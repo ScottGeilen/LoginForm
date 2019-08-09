@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<style type="text/css">
+		#main {
+			background-color: #d9d9d9;
+			width: 600px;
+			height: 300px;
+			border-radius: 25px;
+		}
+		h1 {
+			color: white;
+			background-color: #212121;
+			border-top-right-radius: 25px;
+			border-top-left-radius: 25px;
+		}
+
+		.text {
+			background-color: #d9d9d9;
+			width: 250px;
+			font-weight: bold;
+			font-size: 20px;
+			border: none;
+		}
+
+		hr {
+			width: 250px;
+			margin-top: 0px !important;
+		}
+
+		#submit {
+			width: 250px;
+			height: 30px;
+			background-color: #1ed402;
+			border: none;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		 <div id="main">
+			<h1>Login</h1>
+			<form action="login.php" method="post">
+				<input type="text" name="username" class="text" placeholder="username"><br><hr><br>
+				<input type="password" name="password" class="text" placeholder="password"><br><hr><br>
+				<input type="submit" value="Submit" id="submit">
+			</form> 
+			
+		</div>
+	</center>
+
+</body>
+</html>
