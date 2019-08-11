@@ -7,23 +7,42 @@ body {
 	background: #F8F8FF;
 }
 .header {
-	width: 30%;
+	width: 75%;
 	margin: 50px auto 0px;
 	color: white;
-	background: #5F9EA0;
+	background: #b30000;
 	text-align: center;
-	border: 1px solid #B0C4DE;
 	border-bottom: none;
 	border-radius: 10px 10px 0px 0px;
-	padding: 20px;
+	padding: 20px 0px 0px 0px;
 }
-form, .content {
-	width: 30%;
+.navbar {
+	width: 75%;
+	margin: 0px auto 0px;
+	padding: 0px;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+form {
+	width: 75%;
 	margin: 0px auto;
-	padding:20px;
+	padding: 0px;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+	height: 80vw;
+}
+
+.content {
+	width: 75%;
+	margin: 0px auto;
+	padding: 0px;
 	border: 1px solid #B0C4DE;
 	background: white;
 	border-radius: 0px 0px 10px 10px;
+	height: 80vw;
+}
+.content2 {
+	padding: 20px;
 }
 .input-group {
 	margin: 10px 0px 10px 0px;
@@ -45,7 +64,7 @@ form, .content {
 	padding: 10px;
 	font-size: 15px;
 	color: white;
-	background: #5F9EA0;
+	background: #ff8400;
 	border: none;
 	border-radius: 5px;
 }
@@ -65,4 +84,26 @@ form, .content {
 	background: #dff0d8;
 	border: 1px solid #3c763d;
 	margin-bottom: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff8400;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #ff9f29;
 }
